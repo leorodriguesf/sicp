@@ -1,0 +1,9 @@
+services:
+  dev:
+    image: stklos
+    platform: linux/amd64
+    container_name: stklos-dev
+    volumes:
+      - .:/home
+    stdin_open: true  # Equivalent to -i
+    tty: true         # Equivalent to -t
