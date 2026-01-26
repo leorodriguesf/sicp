@@ -1,6 +1,6 @@
 services:
   dev:
-    image: stklos
+    image: stklos/stklos:latest
     platform: linux/amd64
     container_name: stklos-dev
     volumes:
